@@ -1,3 +1,52 @@
+.dark {
+    --background: #222831;
+    --background-secondary: #393E46;
+    --background-tertiary: #393E46;
+    --text: #EEEEEE;
+    --secondary-text: #EEEEEE;
+    --tertiary-text: #EEEEEE;
+    --primary-action: #0866ff;
+    --secondary-action: hsl(240 3.7% 15.9%);
+    --link: #0866ff;
+}
+
+:root {
+    --background: ##fff;
+    --background-secondary: #222228;
+    --background-tertiary: var(--background);
+    --text: #000;
+    --secondary-text: #EEEEEE;
+    --primary-action: #0866ff;
+    --tertiary-text: #000;
+    --secondary-action: hsl(240 3.7% 15.9%);
+    --link: #0866ff;
+}
+
 body {
-    background-color: skyblue;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: "Google Sans",roboto,arial,helvetica;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-secondary);
+    color: var(--secondary-text);
+    padding-inline: 1em;
+    margin-bottom: 2em;
+}
+
+#logo_title {
+    display: flex;
+    align-items: center;
+}
+
+#logo_title img {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
 }
