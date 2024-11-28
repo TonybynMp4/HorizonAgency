@@ -1,0 +1,22 @@
+#banner {
+    height: 15rem;
+    border-radius: 2em 2em 0 0;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#banner h1 {
+    font-size: 2rem;
+    position: absolute;
+    padding: 0.5em;
+    background-color: rgba(0, 0, 0, 0.35);
+    bottom: 0;
+    width: calc(100% - 1em);
+    margin: 0;
+}
+
+p {
+    font-size: 1.25rem;
+}
