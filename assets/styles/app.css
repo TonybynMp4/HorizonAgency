@@ -43,10 +43,40 @@ header {
 #logo_title {
     display: flex;
     align-items: center;
+    color: var(--secondary-text);
+    text-decoration: none;
 }
 
 #logo_title img {
     width: 4rem;
     height: 4rem;
     margin-right: 1rem;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    min-height: 80vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: var(--background-secondary);
+    color: var(--secondary-text);
+    text-align: center;
+    margin-top: 3rem;
+    height: 3rem;
+    width: 100%;
+}
+
+footer a {
+    color: inherit;
+    opacity: inherit;
+}
+
+a {
+    color: var(--link);
 }
